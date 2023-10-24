@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" >
+    <title>Document</title>
+</head>
+<body>
+   <nav class="navbar">
+     <div class="logo">
+      <i class="bi bi-bank2" title="wallet"></i>
+       <!-- <img src="logo.png" alt="Logo"> -->
+     </div>
+     <div class="navbar-right">
+       <div class="notifications">
+         <i class="bi-bell"></i>
+         <!-- Add notification content here -->
+       </div>
+       <div class="profile">
+         <a href="#" id="profileBtn" class="profile-link">
+           <!-- <img src="profile.png" alt="Profile Image"> -->
+           <i class="bi-person-circle"></i>
+         </a>
+         <div class="dropdown" id="profileDropdown">
+           
+           <a href="#">
+            <i class="bi-person"></i>
+            Profile
+          </a>
+          <a href="#">
+            <i class="bi-gear"></i>
+            Settings
+          </a>
+          <a href="#">
+            <i class="bi-question-circle"></i>
+            Help
+          </a>
+          <a href="#">
+            <i class="bi-box-arrow-right"></i>
+            Logout
+          </a>
+         </div>
+       </div>
+     </div>
+   </nav>
+   <main>
+    <div id="balanceCard">
+      <h2>Balance</h2>
+      <p>$100</p>
+    </div>
+    
+    <div id="transactionCard">
+      <h2>Last 5 Transactions</h2>
+      <ul>
+        <li>Transaction 1</li>
+        <li>Transaction 2</li>
+        <li>Transaction 3</li>
+        <li>Transaction 4</li>
+        <li>Transaction 5</li>
+      </ul>
+      <a href="transaction.html">View All Transactions</a>
+    </div>
+   </main>
+    <div class="bottom-nav custom-block-bottom">
+        <div class="custom-block-bottom-item">
+            <a href="#" class="flex-column">
+                <i class="custom-block-icon bi-wallet"></i>
+
+                <small>Top up</small>
+            </a>
+        </div>
+
+        <div class="custom-block-bottom-item">
+            <a href="#" class="flex-column">
+                <i class="custom-block-icon bi-upc-scan"></i>
+
+                <small>Scan & Pay</small>
+            </a>
+        </div>
+
+        <div class="custom-block-bottom-item">
+            <a href="#" class="flex-column">
+                <i class="custom-block-icon bi-send"></i>
+
+                <small>Send</small>
+            </a>
+        </div>
+
+        <div class="custom-block-bottom-item">
+            <a href="#" class="flex-column">
+                <i class="custom-block-icon bi-arrow-down"></i>
+
+                <small>Request</small>
+            </a>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>
